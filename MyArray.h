@@ -14,6 +14,10 @@ public:
     void pushFront(int v); //вставка вначало
 
     void popBack(); //удалить самый послежний эоемент
+
+    int getSize();
+    int getCatapicy();
+    int getElem(int pos);
 private:
 
     int* arr; 
